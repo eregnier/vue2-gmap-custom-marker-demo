@@ -8,4 +8,5 @@ staticapp:
     - apk update && apk add nodejs npm
   script:
     - echo $SA > /tmp/sa.json && gcloud auth activate-service-account --key-file /tmp/sa.json && rm -f /tmp/sa.json
+    - echo "VUE_APP_GMAP_API_KEY=$VUE_APP_GMAP_API_KEY" > .env
     - npm i && npm run build && gsutil -m rsync -r -d dist gs://vue2-gmap-custom-marker-demo.utopland.net
