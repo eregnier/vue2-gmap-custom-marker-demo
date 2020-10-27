@@ -1,0 +1,11 @@
+stages:
+  - staticapp
+
+staticapp:
+  stage: staticapp
+  image: google/cloud-sdk:alpine
+  before_script:
+    - apk update && apk add nodejs npm
+  script:
+    - echo $SA > /tmp/sa.json && gcloud auth activate-service-account --key-file /tmp/sa.json && rm -f /tmp/sa.json
+    - npm i && npm run build && gsutil -m rsync -r -d dist gs://vue2-gmap-custom-marker-demo.utopland.net
