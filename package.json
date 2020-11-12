@@ -9,12 +9,12 @@
   },
   "dependencies": {
     "axios": "^0.18.1",
+    "core-js": "^3.6.5",
     "eslint-plugin-vue": "^5.2.3",
+    "gmap-vue": "^1.5.0",
     "marker-clusterer-plus": "^2.1.4",
     "vue": "^2.6.12",
-    "vue2-gmap-custom-marker": "git+https://github.com/eregnier/vue2-gmap-custom-marker.git",
-    "vue2-google-maps": "^0.10.7",
-    "core-js": "^3.6.5"
+    "vue2-gmap-custom-marker": "git+https://github.com/eregnier/vue2-gmap-custom-marker.git"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

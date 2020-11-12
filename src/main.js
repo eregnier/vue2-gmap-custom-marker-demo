@@ -1,8 +1,8 @@
-import * as VueGoogleMaps from "vue2-google-maps";
+import * as VueGoogleMaps from "gmap-vue";
 
 import App from "./App.vue";
 // Using Cluster requires marker-clusterer-plus to be installed.
-import GmapCluster from "vue2-google-maps/dist/components/cluster";
+import GmapCluster from "gmap-vue/dist/components/cluster";
 import Vue from "vue";
 
 Vue.component("cluster", GmapCluster);
