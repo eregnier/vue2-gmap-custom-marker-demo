@@ -365,18 +365,17 @@ button {
 }
 .zindex {
   padding: 5px;
-  border: 1px solid #aaa;
+  border: 1px solid rgb(88, 85, 85);
   border-radius: 4px;
-  box-shadow: 3px 3px 3px grey;
   min-height: 100px;
   min-width: 100px;
   font-size: 1.3em;
 }
 .zindex-a {
-  background-color: #eb7bff;
+  background-color: #7bb3e7;
 }
 .zindex-b {
-  background-color: #17e2b8;
+  background-color: #91d87b;
 }
 .card {
   border-radius: 4px;
