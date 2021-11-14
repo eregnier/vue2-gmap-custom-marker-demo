@@ -471,8 +471,8 @@ button {
   margin-right: 5px;
 }
 
-.batch-cluster input {
-  width:40px;
+.batch-cluster input {
+  width: 40px;
 }
 
 .card-tools {
